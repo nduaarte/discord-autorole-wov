@@ -12,7 +12,7 @@ client.on('ready', () => {
 });
 
 client.on('guildMemberAdd', async (member) => {
-  const cargo = member.guild.roles.cache.get('1461924902339870916');
+  const cargo = member.guild.roles.cache.get(1461924902339870916);
 
   if (!cargo) return console.log('Cargo não encontrado!');
 
