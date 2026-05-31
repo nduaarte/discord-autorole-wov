@@ -7,7 +7,7 @@ const client = new Client({
     ],
     // Adicione esta propriedade abaixo para iniciar sempre como Ausente (idle)
     presence: {
-        status: 'idle'
+        status: 'dnd'
     }
 });
 
